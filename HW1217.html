@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	var rand;
+	var num;
+	num=window.prompt("Please input a number from 1-10");
+	num=parseInt(num);
+	rand=Math.floor((Math.random()*10)+1);
+	while(num!=rand){
+		num=window.prompt("Please try again!");
+	}
+	alert("Congratulations!");
+</script>
+</body>
+</html>
